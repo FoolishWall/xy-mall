@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xy-common" />
+        <module name="xy-content-interface" />
+        <module name="xy-content-service" />
+        <module name="xy-manager-dao" />
+        <module name="xy-manager-interface" />
+        <module name="xy-manager-pojo" />
+        <module name="xy-manager-service" />
+        <module name="xy-manager-web" />
+        <module name="xy-portal-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xy-common" target="1.8" />
+      <module name="xy-content" target="1.8" />
+      <module name="xy-content-interface" target="1.8" />
+      <module name="xy-content-service" target="1.8" />
+      <module name="xy-manager" target="1.8" />
+      <module name="xy-manager-dao" target="1.8" />
+      <module name="xy-manager-interface" target="1.8" />
+      <module name="xy-manager-pojo" target="1.8" />
+      <module name="xy-manager-service" target="1.8" />
+      <module name="xy-manager-web" target="1.8" />
+      <module name="xy-parent" target="1.8" />
+      <module name="xy-portal-web" target="1.8" />
+      <module name="xy-search" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

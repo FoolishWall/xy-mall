@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/xy-common/xy-common.iml" filepath="$PROJECT_DIR$/xy-common/xy-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-content/xy-content.iml" filepath="$PROJECT_DIR$/xy-content/xy-content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-content/xy-content-interface/xy-content-interface.iml" filepath="$PROJECT_DIR$/xy-content/xy-content-interface/xy-content-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-content/xy-content-service/xy-content-service.iml" filepath="$PROJECT_DIR$/xy-content/xy-content-service/xy-content-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-manager/xy-manager.iml" filepath="$PROJECT_DIR$/xy-manager/xy-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-manager/xy-manager-dao/xy-manager-dao.iml" filepath="$PROJECT_DIR$/xy-manager/xy-manager-dao/xy-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-manager/xy-manager-interface/xy-manager-interface.iml" filepath="$PROJECT_DIR$/xy-manager/xy-manager-interface/xy-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-manager/xy-manager-pojo/xy-manager-pojo.iml" filepath="$PROJECT_DIR$/xy-manager/xy-manager-pojo/xy-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-manager/xy-manager-service/xy-manager-service.iml" filepath="$PROJECT_DIR$/xy-manager/xy-manager-service/xy-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-manager-web/xy-manager-web.iml" filepath="$PROJECT_DIR$/xy-manager-web/xy-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-parent/xy-parent.iml" filepath="$PROJECT_DIR$/xy-parent/xy-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-portal-web/xy-portal-web.iml" filepath="$PROJECT_DIR$/xy-portal-web/xy-portal-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/xymall.iml" filepath="$PROJECT_DIR$/.idea/xymall.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xy-content-service:war">
+    <output-path>$PROJECT_DIR$/xy-content/xy-content-service/target</output-path>
+    <root id="archive" name="xy-content-service.war">
+      <element id="artifact" artifact-name="xy-content-service:war exploded" />
+    </root>
+  </artifact>
+</component>

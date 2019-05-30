@@ -1,0 +1,11 @@
+com\njupt\xymall\mapper\TbOrderItemMapper.class
+com\njupt\xymall\mapper\TbOrderMapper.class
+com\njupt\xymall\mapper\TbItemMapper.class
+com\njupt\xymall\mapper\TbOrderShippingMapper.class
+com\njupt\xymall\mapper\TbContentCategoryMapper.class
+com\njupt\xymall\mapper\TbItemDescMapper.class
+com\njupt\xymall\mapper\TbItemParamMapper.class
+com\njupt\xymall\mapper\TbContentMapper.class
+com\njupt\xymall\mapper\TbItemCatMapper.class
+com\njupt\xymall\mapper\TbUserMapper.class
+com\njupt\xymall\mapper\TbItemParamItemMapper.class
