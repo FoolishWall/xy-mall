@@ -14,6 +14,10 @@
       <module fileurl="file://$PROJECT_DIR$/xy-manager-web/xy-manager-web.iml" filepath="$PROJECT_DIR$/xy-manager-web/xy-manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-parent/xy-parent.iml" filepath="$PROJECT_DIR$/xy-parent/xy-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-portal-web/xy-portal-web.iml" filepath="$PROJECT_DIR$/xy-portal-web/xy-portal-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-search/xy-search.iml" filepath="$PROJECT_DIR$/xy-search/xy-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-search/xy-search-interface/xy-search-interface.iml" filepath="$PROJECT_DIR$/xy-search/xy-search-interface/xy-search-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-search/xy-search-service/xy-search-service.iml" filepath="$PROJECT_DIR$/xy-search/xy-search-service/xy-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-search-web/xy-search-web.iml" filepath="$PROJECT_DIR$/xy-search-web/xy-search-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/xymall.iml" filepath="$PROJECT_DIR$/.idea/xymall.iml" />
     </modules>
   </component>

@@ -1,4 +1,6 @@
 com\njupt\xymall\controller\ContentCatController.class
+com\njupt\xymall\controller\SearchItemController.class
+com\njupt\xymall\controller\ItemCatController.class
 com\njupt\xymall\controller\PageController.class
 com\njupt\xymall\controller\PictureController.class
 com\njupt\xymall\controller\ItemController.class

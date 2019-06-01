@@ -6,6 +6,8 @@
     <file type="web" url="file://$PROJECT_DIR$/xy-manager/xy-manager-service" />
     <file type="web" url="file://$PROJECT_DIR$/xy-manager/xy-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/xy-portal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/xy-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/xy-search/xy-search-service" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -21,6 +23,8 @@
         <option value="$PROJECT_DIR$/xy-manager-web/pom.xml" />
         <option value="$PROJECT_DIR$/xy-portal-web/pom.xml" />
         <option value="$PROJECT_DIR$/xy-content/pom.xml" />
+        <option value="$PROJECT_DIR$/xy-search/pom.xml" />
+        <option value="$PROJECT_DIR$/xy-search-web/pom.xml" />
       </list>
     </option>
   </component>

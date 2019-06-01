@@ -3,7 +3,9 @@ Z:\xymall\xy-common\src\main\java\com\njupt\xymall\common\pojo\EasyUITreeNode.ja
 Z:\xymall\xy-common\src\main\java\com\njupt\xymall\common\jedis\JedisClientPool.java
 Z:\xymall\xy-common\src\main\java\com\njupt\xymall\common\pojo\EasyUIDataGridResult.java
 Z:\xymall\xy-common\src\main\java\com\njupt\xymall\common\jedis\JedisClient.java
+Z:\xymall\xy-common\src\main\java\com\njupt\xymall\common\pojo\SearchResult.java
 Z:\xymall\xy-common\src\main\java\com\njupt\xymall\common\utils\XYResult.java
+Z:\xymall\xy-common\src\main\java\com\njupt\xymall\common\pojo\SearchItem.java
 Z:\xymall\xy-common\src\main\java\com\njupt\xymall\common\utils\IDUtils.java
 Z:\xymall\xy-common\src\main\java\com\njupt\xymall\common\utils\JsonUtils.java
 Z:\xymall\xy-common\src\main\java\com\njupt\xymall\common\utils\FastDFSClient.java

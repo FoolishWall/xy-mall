@@ -15,6 +15,9 @@
         <module name="xy-manager-service" />
         <module name="xy-manager-web" />
         <module name="xy-portal-web" />
+        <module name="xy-search-interface" />
+        <module name="xy-search-service" />
+        <module name="xy-search-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -31,6 +34,9 @@
       <module name="xy-parent" target="1.8" />
       <module name="xy-portal-web" target="1.8" />
       <module name="xy-search" target="1.8" />
+      <module name="xy-search-interface" target="1.8" />
+      <module name="xy-search-service" target="1.8" />
+      <module name="xy-search-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
