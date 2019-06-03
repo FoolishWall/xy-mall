@@ -623,3 +623,148 @@ com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://172.31.99.193:
 
 [INFO ] 2019-05-31 16:52:37,609 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
  [DUBBO] Successed connect to server /172.31.99.193:20882 from NettyClient 172.31.99.193 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x97b04d99, /172.31.99.193:6257 => /172.31.99.193:20882]], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[WARN ] 2019-06-01 10:14:34,108 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1176)
+No mapping found for HTTP request with URI [/html/web/_public/_ajaxStaticMenu.html] in DispatcherServlet with name 'xy-search-web'
+
+
+[INFO ] 2019-06-01 14:35:38,730 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /172.31.99.193:20882,url:dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22800&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559287645354, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[WARN ] 2019-06-01 14:35:42,381 method:com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:160)
+ [DUBBO] client reconnect to 172.31.99.193:20882 find error . url: dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22800&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559287645354, dubbo version: 2.5.3, current host: 172.31.99.193
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22800&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559287645354) failed to connect to server /172.31.99.193:20882 client-side timeout 3000ms (elapsed: 3002ms) from netty client 172.31.99.193 using dubbo version 2.5.3
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:127)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+[INFO ] 2019-06-01 14:35:44,385 method:com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:101)
+ [DUBBO] Close old netty channel [id: 0x97b04d99, /172.31.99.193:6257 :> /172.31.99.193:20882] on create new netty channel [id: 0x8ad66e7c, /172.31.99.193:14629 => /172.31.99.193:20882], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 14:35:44,386 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.31.99.193:20882 from NettyClient 172.31.99.193 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x8ad66e7c, /172.31.99.193:14629 => /172.31.99.193:20882]], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 14:35:58,799 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /172.31.99.193:20882,url:dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22800&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559287645354, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 14:36:00,395 method:com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:101)
+ [DUBBO] Close old netty channel [id: 0x8ad66e7c, /172.31.99.193:14629 :> /172.31.99.193:20882] on create new netty channel [id: 0x4c58a34e, /172.31.99.193:14772 => /172.31.99.193:20882], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 14:36:00,396 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.31.99.193:20882 from NettyClient 172.31.99.193 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x4c58a34e, /172.31.99.193:14772 => /172.31.99.193:20882]], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 14:36:01,795 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /172.31.99.193:20882,url:dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22800&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559287645354, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 14:36:02,399 method:com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:101)
+ [DUBBO] Close old netty channel [id: 0x4c58a34e, /172.31.99.193:14772 :> /172.31.99.193:20882] on create new netty channel [id: 0xb91011be, /172.31.99.193:14800 => /172.31.99.193:20882], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 14:36:02,399 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.31.99.193:20882 from NettyClient 172.31.99.193 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xb91011be, /172.31.99.193:14800 => /172.31.99.193:20882]], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 16:09:41,965 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /172.31.99.193:20882,url:dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22800&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559287645354, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 16:09:43,117 method:com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:101)
+ [DUBBO] Close old netty channel [id: 0xb91011be, /172.31.99.193:14800 :> /172.31.99.193:20882] on create new netty channel [id: 0x554bce64, /172.31.99.193:11966 => /172.31.99.193:20882], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 16:09:43,118 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.31.99.193:20882 from NettyClient 172.31.99.193 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x554bce64, /172.31.99.193:11966 => /172.31.99.193:20882]], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 16:09:44,991 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /172.31.99.193:20882,url:dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22800&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559287645354, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[WARN ] 2019-06-01 16:09:48,122 method:com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:160)
+ [DUBBO] client reconnect to 172.31.99.193:20882 find error . url: dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22800&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559287645354, dubbo version: 2.5.3, current host: 172.31.99.193
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22800&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559287645354) failed to connect to server /172.31.99.193:20882 client-side timeout 3000ms (elapsed: 3002ms) from netty client 172.31.99.193 using dubbo version 2.5.3
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:127)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+[INFO ] 2019-06-01 16:09:50,126 method:com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:101)
+ [DUBBO] Close old netty channel [id: 0x554bce64, /172.31.99.193:11966 :> /172.31.99.193:20882] on create new netty channel [id: 0x3d7bf3da, /172.31.99.193:12030 => /172.31.99.193:20882], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 16:09:50,127 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.31.99.193:20882 from NettyClient 172.31.99.193 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x3d7bf3da, /172.31.99.193:12030 => /172.31.99.193:20882]], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 23:24:21,016 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /172.31.99.193:20882,url:dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22800&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559287645354, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 23:24:22,396 method:com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:101)
+ [DUBBO] Close old netty channel [id: 0x3d7bf3da, /172.31.99.193:12030 :> /172.31.99.193:20882] on create new netty channel [id: 0x3fd83a94, /172.31.99.193:13769 => /172.31.99.193:20882], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 23:24:22,397 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.31.99.193:20882 from NettyClient 172.31.99.193 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x3fd83a94, /172.31.99.193:13769 => /172.31.99.193:20882]], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 23:24:24,063 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /172.31.99.193:20882,url:dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22800&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559287645354, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 23:24:24,400 method:com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:101)
+ [DUBBO] Close old netty channel [id: 0x3fd83a94, /172.31.99.193:13769 :> /172.31.99.193:20882] on create new netty channel [id: 0xdd6b5375, /172.31.99.193:13789 => /172.31.99.193:20882], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 23:24:24,401 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.31.99.193:20882 from NettyClient 172.31.99.193 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xdd6b5375, /172.31.99.193:13789 => /172.31.99.193:20882]], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 23:28:10,146 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /172.31.99.193:20882,url:dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22800&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559287645354, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[WARN ] 2019-06-01 23:28:13,507 method:com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:160)
+ [DUBBO] client reconnect to 172.31.99.193:20882 find error . url: dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22800&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559287645354, dubbo version: 2.5.3, current host: 172.31.99.193
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22800&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559287645354) failed to connect to server /172.31.99.193:20882 client-side timeout 3000ms (elapsed: 3003ms) from netty client 172.31.99.193 using dubbo version 2.5.3
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:127)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+[INFO ] 2019-06-01 23:28:15,512 method:com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:101)
+ [DUBBO] Close old netty channel [id: 0xdd6b5375, /172.31.99.193:13789 :> /172.31.99.193:20882] on create new netty channel [id: 0x54302f77, /172.31.99.193:14772 => /172.31.99.193:20882], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-01 23:28:15,512 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.31.99.193:20882 from NettyClient 172.31.99.193 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x54302f77, /172.31.99.193:14772 => /172.31.99.193:20882]], dubbo version: 2.5.3, current host: 172.31.99.193

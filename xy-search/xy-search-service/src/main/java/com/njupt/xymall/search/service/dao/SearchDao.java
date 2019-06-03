@@ -2,8 +2,8 @@ package com.njupt.xymall.search.service.dao;
 
 import com.njupt.xymall.common.pojo.SearchItem;
 import com.njupt.xymall.common.pojo.SearchResult;
+import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.client.solrj.SolrQuery;
-import org.apache.solr.client.solrj.SolrServer;
 import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
@@ -21,7 +21,7 @@ import java.util.Map;
 public class SearchDao {
 	
 	@Autowired
-	private SolrServer solrServer;
+	private SolrClient solrServer;
 
 	/**
 	 *根据查询条件查询索引库

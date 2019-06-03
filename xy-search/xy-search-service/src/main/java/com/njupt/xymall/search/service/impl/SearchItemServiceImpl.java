@@ -5,7 +5,7 @@ import com.njupt.xymall.common.pojo.SearchItem;
 import com.njupt.xymall.common.utils.XYResult;
 import com.njupt.xymall.search.service.SearchItemService;
 import com.njupt.xymall.search.service.mapper.ItemMapper;
-import org.apache.solr.client.solrj.SolrServer;
+import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.common.SolrInputDocument;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -24,7 +24,7 @@ public class SearchItemServiceImpl implements SearchItemService {
 	@Autowired
 	private ItemMapper itemMapper;
 	@Autowired
-	private SolrServer solrServer;
+	private SolrClient solrServer;
 
 	@Override
 	public XYResult importAllItems() {

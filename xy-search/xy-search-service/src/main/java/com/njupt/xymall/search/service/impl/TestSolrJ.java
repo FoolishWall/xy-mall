@@ -1,9 +1,9 @@
 package com.njupt.xymall.search.service.impl;
 
+import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.client.solrj.SolrQuery;
-import org.apache.solr.client.solrj.SolrServer;
 import org.apache.solr.client.solrj.SolrServerException;
-import org.apache.solr.client.solrj.impl.HttpSolrServer;
+import org.apache.solr.client.solrj.impl.HttpSolrClient;
 import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
@@ -26,13 +26,14 @@ public class TestSolrJ {
 
         try {
         //创建一个SolrServer对象，创建一个连接，参数为solr服务的url
-        SolrServer solrServer = new HttpSolrServer("http://120.79.190.49:8983/solr/xymall");
+        SolrClient solrServer = new HttpSolrClient.
+                Builder("http://120.79.190.49:8983/solr/xymall").build();
         //创建一个文档对象SolrInputDocument
         SolrInputDocument document = new SolrInputDocument();
 
         //向文档对象中添加域。文档中必须包含一个id域，所有的域的名称必须在schema.xml中定义。
-        document.addField("id","1");
-        document.addField("item_title","测试商品");
+        document.addField("id","1688");
+        document.addField("item_title","solr单机版");
         document.addField("item_price",1000);
         //把文档写入索引库
         solrServer.add(document);
@@ -47,7 +48,8 @@ public class TestSolrJ {
     @Test
     public void queryDocument() throws Exception {
         // 第一步：创建一个SolrServer对象
-        SolrServer solrServer = new HttpSolrServer("http://120.79.190.49:8983/solr/xymall");
+        SolrClient solrServer = new HttpSolrClient.
+                Builder("http://120.79.190.49:8983/solr/xymall").build();
         // 第二步：创建一个SolrQuery对象。
         SolrQuery query = new SolrQuery();
         // 第三步：向SolrQuery中添加查询条件、过滤条件。。。
@@ -69,7 +71,8 @@ public class TestSolrJ {
     @Test
     public void queryDocumentWithHighLighting() throws Exception {
         // 第一步：创建一个SolrServer对象
-        SolrServer solrServer = new HttpSolrServer("http://120.79.190.49:8983/solr/xymall");
+        SolrClient solrServer = new HttpSolrClient.
+                Builder("http://120.79.190.49:8983/solr/xymall").build();
         // 第二步：创建一个SolrQuery对象。
         SolrQuery query = new SolrQuery();
         // 第三步：向SolrQuery中添加查询条件、过滤条件。。。

@@ -9,9 +9,11 @@
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
 
 	<!-- 单机版solrJ -->
-	<bean id="httpSolrServer" class="org.apache.solr.client.solrj.impl.HttpSolrServer">
-		<constructor-arg index="0" value="http://120.79.190.49:8983/solr/xymall"/>
+	<bean id="builder" class="org.apache.solr.client.solrj.impl.HttpSolrClient.Builder">
+		<constructor-arg name="baseSolrUrl"  value="http://120.79.190.49:8983/solr/xymall" />
 	</bean>
+
+	<bean factory-bean="builder" factory-method="build" id="httpSolrClient"/>
 	<!-- 集群版solrJ -->
 	<!-- <bean id="cloudSolrServer" class="org.apache.solr.client.solrj.impl.CloudSolrServer">
 		<constructor-arg index="0" value="192.168.13.129:2181,192.168.13.129:2182,192.168.13.129:2183"/>
