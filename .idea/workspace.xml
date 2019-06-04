@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5bd86e4-5345-4bdc-ab58-cf658ec255c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_noggit_noggit_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy-search/xy-search-service/src/main/java/com/njupt/xymall/search/service/test/TestSolrCloud.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/xy_search_service_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/xy_search_service_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_solr_solr_solrj_4_10_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_solr_solr_solrj_7_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_wstx_asl_3_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_noggit_noggit_0_5.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/xy-search-web/src/main/java/com/njupt/xymall/search/exception/GlobalExceptionResolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xy-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-search-web/logs/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/xy-search-web/logs/server.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-search-web/target/tomcat/logs/access_log.2019-06-01" beforeDir="false" afterPath="$PROJECT_DIR$/xy-search-web/target/tomcat/logs/access_log.2019-06-01" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-search/xy-search-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xy-search/xy-search-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-search/xy-search-service/src/main/java/com/njupt/xymall/search/service/dao/SearchDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/xy-search/xy-search-service/src/main/java/com/njupt/xymall/search/service/dao/SearchDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-search/xy-search-service/src/main/java/com/njupt/xymall/search/service/impl/SearchItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xy-search/xy-search-service/src/main/java/com/njupt/xymall/search/service/impl/SearchItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-search/xy-search-service/src/main/java/com/njupt/xymall/search/service/impl/TestSolrJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/xy-search/xy-search-service/src/main/java/com/njupt/xymall/search/service/impl/TestSolrJ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-search/xy-search-service/src/main/resources/spring/spring-solr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xy-search/xy-search-service/src/main/resources/spring/spring-solr.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-search/xy-search-service/target/classes/com/njupt/xymall/search/service/dao/SearchDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/xy-search/xy-search-service/target/classes/com/njupt/xymall/search/service/dao/SearchDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-search/xy-search-service/target/classes/com/njupt/xymall/search/service/impl/SearchItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/xy-search/xy-search-service/target/classes/com/njupt/xymall/search/service/impl/SearchItemServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-search/xy-search-service/target/classes/com/njupt/xymall/search/service/impl/TestSolrJ.class" beforeDir="false" afterPath="$PROJECT_DIR$/xy-search/xy-search-service/target/classes/com/njupt/xymall/search/service/impl/TestSolrJ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-search/xy-search-service/target/classes/spring/spring-solr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xy-search/xy-search-service/target/classes/spring/spring-solr.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-search/xy-search-service/xy-search-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xy-search/xy-search-service/xy-search-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xy-search-web/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xy-search-web/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/xy-parent/target/" />
@@ -84,7 +57,7 @@
           <entry key="jsp" value="26" />
           <entry key="md" value="4" />
           <entry key="properties" value="37" />
-          <entry key="xml" value="1021" />
+          <entry key="xml" value="1028" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -94,7 +67,7 @@
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="Properties" value="37" />
-          <entry key="XML" value="1021" />
+          <entry key="XML" value="1028" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -103,15 +76,16 @@
           <entry key="conf" value="2" />
           <entry key="groovy" value="1" />
           <entry key="iml" value="2" />
-          <entry key="java" value="194" />
+          <entry key="java" value="196" />
           <entry key="js" value="3" />
-          <entry key="jsp" value="21" />
+          <entry key="jsp" value="22" />
+          <entry key="log" value="1" />
           <entry key="md" value="1" />
           <entry key="pom" value="4" />
-          <entry key="properties" value="30" />
+          <entry key="properties" value="31" />
           <entry key="rnc" value="1" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="201" />
+          <entry key="xml" value="202" />
           <entry key="xsd" value="4" />
         </counts>
       </usages-collector>
@@ -119,15 +93,15 @@
         <counts>
           <entry key="CLASS" value="34" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="194" />
-          <entry key="JSP" value="21" />
+          <entry key="JAVA" value="196" />
+          <entry key="JSP" value="22" />
           <entry key="JavaScript" value="3" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="30" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="31" />
           <entry key="RNG Compact" value="1" />
           <entry key="Scratch" value="2" />
-          <entry key="XML" value="209" />
+          <entry key="XML" value="210" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.core.usages.trigger">
@@ -139,7 +113,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xy-search/xy-search-service/src/main/java/com/njupt/xymall/search/service/test/TestSolrCloud.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="67">
@@ -164,17 +138,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xy-search/xy-search-service/src/main/java/com/njupt/xymall/search/service/impl/SearchItemServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="460">
+              <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xy-search-web/src/main/java/com/njupt/xymall/search/exception/GlobalExceptionResolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="15" column="72" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xy-search/xy-search-service/src/main/resources/spring/spring-service.xml">
+        <entry file="file://$PROJECT_DIR$/xy-search-web/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="22" column="127" selection-start-line="22" selection-start-column="127" selection-end-line="22" selection-end-column="127" />
+            <state relative-caret-position="189">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xy-search-web/src/main/resources/spring/spring-mvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -253,7 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xy-content/xy-content-interface/src/main/java/com/njupt/xymall/content/service/ContentCategoryService.java" />
         <option value="$PROJECT_DIR$/xy-manager-web/src/main/java/com.njupt.xymall/controller/ContentCatController.java" />
         <option value="$PROJECT_DIR$/xy-content/xy-content-service/src/main/resources/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/xy-common/src/main/java/com/njupt/xymall/common/pojo/EasyUIDataGridResult.java" />
@@ -287,7 +284,6 @@
         <option value="$PROJECT_DIR$/xy-search/xy-search-service/src/main/java/com/njupt/xymall/search/service/impl/SearchServiceImpl.java" />
         <option value="$PROJECT_DIR$/xy-search/xy-search-service/src/main/resources/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/xy-search-web/src/main/java/com/njupt/xymall/search/controller/SearchController.java" />
-        <option value="$PROJECT_DIR$/xy-search-web/src/main/resources/spring/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/xy-portal-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp" />
         <option value="$PROJECT_DIR$/xy-search-web/pom.xml" />
         <option value="$PROJECT_DIR$/xy-search-web/src/main/webapp/WEB-INF/jsp/search.jsp" />
@@ -304,6 +300,8 @@
         <option value="$PROJECT_DIR$/xy-search/xy-search-service/pom.xml" />
         <option value="$PROJECT_DIR$/xy-parent/pom.xml" />
         <option value="$PROJECT_DIR$/xy-search/xy-search-service/src/main/java/com/njupt/xymall/search/service/test/TestSolrCloud.java" />
+        <option value="$PROJECT_DIR$/xy-search-web/src/main/java/com/njupt/xymall/search/exception/GlobalExceptionResolver.java" />
+        <option value="$PROJECT_DIR$/xy-search-web/src/main/resources/spring/spring-mvc.xml" />
       </list>
     </option>
   </component>
@@ -386,39 +384,25 @@
             <path>
               <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="xy-search-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search-interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="xy-search-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="xy-search-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="xy-search-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -426,91 +410,26 @@
             <path>
               <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="xy-search-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search-service" type="462c0819:PsiDirectoryNode" />
+              <item name="xy-search-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search-service" type="462c0819:PsiDirectoryNode" />
+              <item name="xy-search-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -518,12 +437,58 @@
             <path>
               <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-search-service" type="462c0819:PsiDirectoryNode" />
+              <item name="xy-search-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xymall" type="462c0819:PsiDirectoryNode" />
+              <item name="xy-search-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xymall" type="462c0819:PsiDirectoryNode" />
+              <item name="xy-search-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xymall" type="462c0819:PsiDirectoryNode" />
+              <item name="xy-search-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xymall" type="462c0819:PsiDirectoryNode" />
+              <item name="xy-search-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xymall" type="462c0819:PsiDirectoryNode" />
+              <item name="xy-search-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="error" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -535,7 +500,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559569268130" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559615224454" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -558,18 +523,18 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\xymall\xy-search-web\src\main" />
       <recent name="Z:\xymall\xy-search\xy-search-service\src\main" />
       <recent name="Z:\xymall\xy-search-web\src\main\resources" />
-      <recent name="Z:\xymall\xy-search-web\src\main" />
       <recent name="Z:\xymall\xy-common\src\main\java\com\njupt\xymall\common\pojo" />
       <recent name="Z:\xymall\xy-search\xy-search-service\src\main\java\com\njupt\xymall\search\service\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.njupt.xymall.search.exception" />
       <recent name="com.njupt.xymall.controller" />
       <recent name="com.njupt.xymall.service.impl" />
       <recent name="com.njupt.xymall.service" />
       <recent name="com.njupt.xymall.search.controller" />
-      <recent name="com.njupt.xymall.search.service.impl" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Z:\xymall\xy-manager-web\src\main\resources" />
@@ -709,14 +674,11 @@
       <workItem from="1558766793772" duration="9000" />
       <workItem from="1558768473494" duration="10402000" />
       <workItem from="1558937763868" duration="10138000" />
-      <workItem from="1558966033620" duration="59800000" />
+      <workItem from="1558966033620" duration="62447000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSolrCloud_testAddDocument - 2019.06.03 at 21h 14m 19s.xml">
-      <configuration name="TestSolrCloud.testAddDocument" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestSolrCloud_testAddDocument - 2019.06.03 at 21h 19m 13s.xml">
       <configuration name="TestSolrCloud.testAddDocument" configurationId="JUnit" />
     </history-entry>
@@ -744,14 +706,18 @@
     <history-entry file="TestSolrCloud_testAddDocument - 2019.06.03 at 21h 36m 08s.xml">
       <configuration name="TestSolrCloud.testAddDocument" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestSolrCloud_testAddDocument - 2019.06.03 at 21h 40m 43s.xml">
+      <configuration name="TestSolrCloud.testAddDocument" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133369000" />
+    <option name="totallyTimeSpent" value="136016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837488" visible="true" weight="0.1977612" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837488" visible="true" weight="0.13219616" />
       <window_info id="Structure" order="1" sideWeight="0.50064516" side_tool="true" weight="0.28997868" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -761,13 +727,13 @@
       <window_info id="Web" order="7" sideWeight="0.5016251" side_tool="true" weight="0.18923241" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.37201735" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.87527114" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5178765" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.19414316" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.15401301" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.3716143" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.46312365" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -825,50 +791,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xy-search/xy-search-service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-manager-web/src/main/java/com.njupt.xymall/controller/ContentCatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-content/xy-content-interface/src/main/java/com/njupt/xymall/content/service/ContentCategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-search/xy-search-interface/src/main/java/com/njupt/xymall/search/service/SearchItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-search/xy-search-service/src/main/java/com/njupt/xymall/search/service/mapper/ItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xy-search/xy-search-service/src/main/java/com/njupt/xymall/search/service/mapper/ItemMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -952,13 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-search-web/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -1163,13 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xy-search/xy-search-service/src/main/java/com/njupt/xymall/search/service/impl/SearchItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://Z:/repository/org/apache/solr/solr-solrj/7.4.0/solr-solrj-7.4.0.jar!/org/apache/solr/client/solrj/impl/CloudSolrClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5769">
@@ -1229,6 +1137,53 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#784#792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-search-web/logs/server.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20087" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-search-web/src/main/exception/GlobalExceptionResolver.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-search/xy-search-service/src/main/java/com/njupt/xymall/search/service/impl/SearchItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-search-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-686" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-search-web/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-search-web/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-search-web/src/main/java/com/njupt/xymall/search/exception/GlobalExceptionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="15" column="72" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
