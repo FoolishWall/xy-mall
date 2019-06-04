@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/xy-content/xy-content-service" />
+    <file type="web" url="file://$PROJECT_DIR$/xy-item-web" />
     <file type="web" url="file://$PROJECT_DIR$/xy-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/xy-manager/xy-manager-service" />
     <file type="web" url="file://$PROJECT_DIR$/xy-manager/xy-manager-web" />
@@ -25,6 +26,7 @@
         <option value="$PROJECT_DIR$/xy-content/pom.xml" />
         <option value="$PROJECT_DIR$/xy-search/pom.xml" />
         <option value="$PROJECT_DIR$/xy-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/xy-item-web/pom.xml" />
       </list>
     </option>
   </component>

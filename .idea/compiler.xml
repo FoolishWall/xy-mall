@@ -9,6 +9,7 @@
         <module name="xy-common" />
         <module name="xy-content-interface" />
         <module name="xy-content-service" />
+        <module name="xy-item-web" />
         <module name="xy-manager-dao" />
         <module name="xy-manager-interface" />
         <module name="xy-manager-pojo" />
@@ -25,6 +26,7 @@
       <module name="xy-content" target="1.8" />
       <module name="xy-content-interface" target="1.8" />
       <module name="xy-content-service" target="1.8" />
+      <module name="xy-item-web" target="1.8" />
       <module name="xy-manager" target="1.8" />
       <module name="xy-manager-dao" target="1.8" />
       <module name="xy-manager-interface" target="1.8" />

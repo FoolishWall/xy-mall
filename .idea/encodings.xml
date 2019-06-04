@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/xy-content" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xy-content/xy-content-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xy-content/xy-content-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xy-item-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xy-manager" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xy-manager-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xy-manager/xy-manager-dao" charset="UTF-8" />

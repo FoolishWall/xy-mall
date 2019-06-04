@@ -768,3 +768,725 @@ com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://172.31.99.193:
 
 [INFO ] 2019-06-01 23:28:15,512 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
  [DUBBO] Successed connect to server /172.31.99.193:20882 from NettyClient 172.31.99.193 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x54302f77, /172.31.99.193:14772 => /172.31.99.193:20882]], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:34:46,486 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'xy-search-web': initialization started
+
+
+[INFO ] 2019-06-04 11:34:46,503 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing WebApplicationContext for namespace 'xy-search-web-servlet': startup date [Tue Jun 04 11:34:46 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-06-04 11:34:46,531 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-06-04 11:34:46,835 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2019-06-04 11:34:46,950 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:155)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-06-04 11:34:47,216 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\JasonCode\.dubbo\dubbo-registry-localhost.cache, data: {com.njupt.xymall.content.service.ContentCategoryService=empty://172.31.99.193/com.njupt.xymall.content.service.ContentCategoryService?application=xy-manager-web&category=configurators&dubbo=2.5.3&interface=com.njupt.xymall.content.service.ContentCategoryService&methods=getContentCatList&pid=17880&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559290008889 empty://172.31.99.193/com.njupt.xymall.content.service.ContentCategoryService?application=xy-manager-web&category=routers&dubbo=2.5.3&interface=com.njupt.xymall.content.service.ContentCategoryService&methods=getContentCatList&pid=17880&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559290008889 dubbo://172.31.99.193:20881/com.njupt.xymall.content.service.ContentCategoryService?anyhost=true&application=xy-manager&dubbo=2.5.3&interface=com.njupt.xymall.content.service.ContentCategoryService&methods=getContentCatList&pid=23892&side=provider&timeout=600000&timestamp=1559289133286, com.njupt.xymall.search.service.SearchService=empty://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=configurators&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22800&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559287645354 empty://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=routers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22800&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559287645354 dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22608&side=provider&timeout=600000&timestamp=1559286757760, com.njupt.xymall.search.service.SearchItemService=empty://172.31.99.193/com.njupt.xymall.search.service.SearchItemService?application=xy-manager-web&category=configurators&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchItemService&methods=importAllItems&pid=17880&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559290009785 empty://172.31.99.193/com.njupt.xymall.search.service.SearchItemService?application=xy-manager-web&category=routers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchItemService&methods=importAllItems&pid=17880&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559290009785 dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchItemService?anyhost=true&application=xy-search&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchItemService&methods=importAllItems&pid=22608&side=provider&timeout=600000&timestamp=1559286757326, com.njupt.xymall.service.ItemService=empty://172.31.99.193/com.njupt.xymall.service.ItemService?application=xy-item-web&category=configurators&dubbo=2.5.3&interface=com.njupt.xymall.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=24464&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619228250 empty://172.31.99.193/com.njupt.xymall.service.ItemService?application=xy-item-web&category=routers&dubbo=2.5.3&interface=com.njupt.xymall.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=24464&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619228250 dubbo://172.31.99.193:20880/com.njupt.xymall.service.ItemService?anyhost=true&application=xy-manager&dubbo=2.5.3&interface=com.njupt.xymall.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=24552&side=provider&timeout=600000&timestamp=1559619216155, com.njupt.xymall.service.ItemCatService=empty://172.31.99.193:20880/com.njupt.xymall.service.ItemCatService?anyhost=true&application=xy-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.njupt.xymall.service.ItemCatService&methods=getItemCatlist&pid=24552&side=provider&timeout=600000&timestamp=1559619216653}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2019-06-04 11:34:47,233 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2019-06-04 11:34:47,251 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2019-06-04 11:34:47,251 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=DESKTOP-47CK06Q.mshome.net
+
+
+[INFO ] 2019-06-04 11:34:47,252 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_121
+
+
+[INFO ] 2019-06-04 11:34:47,252 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2019-06-04 11:34:47,252 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=C:\Program Files\Java\jdk1.8.0_121\jre
+
+
+[INFO ] 2019-06-04 11:34:47,252 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=Z:\apache-maven-3.5.3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.2.5\lib\idea_rt.jar
+
+
+[INFO ] 2019-06-04 11:34:47,253 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;G:\Program Tools\CTEX\UserData\miktex\bin;G:\Program Tools\CTEX\MiKTeX\miktex\bin;G:\Program Tools\CTEX\CTeX\ctex\bin;G:\Program Tools\CTEX\CTeX\cct\bin;G:\Program Tools\CTEX\CTeX\ty\bin;G:\Program Tools\CTEX\Ghostscript\gs9.05\bin;G:\Program Tools\CTEX\GSview\gsview;G:\Program Tools\CTEX\WinEdt;H:\apache-tomcat-8.0.43\bin;G:\soft;C:\Program Files\IDM Computer Solutions\UltraCompare;I:\MATLAB\MATLAB\R2017a\runtime\win64;I:\MATLAB\MATLAB\R2017a\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;Z:\apache-maven-3.5.3\bin;I:\Object Detection;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;Z:\Anaconda2\Scripts;I:\curl\I386;C:\WINDOWS\System32\OpenSSH\;%GIT-HOME%\cmd;Z:\Git\bin;C:\msys64\usr\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;Z:\Jenkins\cmake-3.12.3-win64-x64\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Users\JasonCode\AppData\Local\Microsoft\WindowsApps;Z:\python;D:\erl10.2\bin;C:\Program Files\Java\jdk1.8.0_121\bin;;.
+
+
+[INFO ] 2019-06-04 11:34:47,253 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\JASONC~1\AppData\Local\Temp\
+
+
+[INFO ] 2019-06-04 11:34:47,253 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2019-06-04 11:34:47,254 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2019-06-04 11:34:47,255 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2019-06-04 11:34:47,255 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2019-06-04 11:34:47,255 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=JasonCode
+
+
+[INFO ] 2019-06-04 11:34:47,255 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\JasonCode
+
+
+[INFO ] 2019-06-04 11:34:47,256 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=Z:\xymall\xy-search-web
+
+
+[INFO ] 2019-06-04 11:34:47,257 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@5e8404df
+
+
+[INFO ] 2019-06-04 11:34:47,286 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2019-06-04 11:34:47,289 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+
+
+[INFO ] 2019-06-04 11:34:47,314 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x100005583e70024, negotiated timeout = 30000
+
+
+[INFO ] 2019-06-04 11:34:47,315 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2019-06-04 11:34:47,335 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=consumers&check=false&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=468&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619287155, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:34:47,387 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=468&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619287155, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:34:47,479 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=468&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619287155, urls: [empty://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=providers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=468&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619287155, empty://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=configurators&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=468&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619287155, empty://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=routers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=468&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619287155], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[WARN ] 2019-06-04 11:34:47,485 method:org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'searchController': Unsatisfied dependency expressed through field 'searchService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'searchService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.njupt.xymall.search.service.SearchService. No provider available for the service com.njupt.xymall.search.service.SearchService from the url zookeeper://localhost:2181/com.alibaba.dubbo.registry.RegistryService?application=xy-search-web&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=468&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619287155 to the consumer 172.31.99.193 use dubbo version 2.5.3
+
+
+[ERROR] 2019-06-04 11:34:47,487 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:502)
+Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'searchController': Unsatisfied dependency expressed through field 'searchService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'searchService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.njupt.xymall.search.service.SearchService. No provider available for the service com.njupt.xymall.search.service.SearchService from the url zookeeper://localhost:2181/com.alibaba.dubbo.registry.RegistryService?application=xy-search-web&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=468&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619287155 to the consumer 172.31.99.193 use dubbo version 2.5.3
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'searchService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.njupt.xymall.search.service.SearchService. No provider available for the service com.njupt.xymall.search.service.SearchService from the url zookeeper://localhost:2181/com.alibaba.dubbo.registry.RegistryService?application=xy-search-web&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=468&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619287155 to the consumer 172.31.99.193 use dubbo version 2.5.3
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1634)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1316)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1282)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1101)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 31 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.njupt.xymall.search.service.SearchService. No provider available for the service com.njupt.xymall.search.service.SearchService from the url zookeeper://localhost:2181/com.alibaba.dubbo.registry.RegistryService?application=xy-search-web&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=468&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619287155 to the consumer 172.31.99.193 use dubbo version 2.5.3
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.ReferenceBean.getObject(ReferenceBean.java:65)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	... 41 more
+
+
+[INFO ] 2019-06-04 11:35:26,692 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'xy-search-web': initialization started
+
+
+[INFO ] 2019-06-04 11:35:26,712 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing WebApplicationContext for namespace 'xy-search-web-servlet': startup date [Tue Jun 04 11:35:26 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-06-04 11:35:26,747 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-06-04 11:35:27,058 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2019-06-04 11:35:27,173 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:155)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-06-04 11:35:27,457 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\JasonCode\.dubbo\dubbo-registry-localhost.cache, data: {com.njupt.xymall.content.service.ContentCategoryService=empty://172.31.99.193:20881/com.njupt.xymall.content.service.ContentCategoryService?anyhost=true&application=xy-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.njupt.xymall.content.service.ContentCategoryService&methods=getContentCatList&pid=1556&side=provider&timeout=600000&timestamp=1559619316265, com.njupt.xymall.search.service.SearchService=empty://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=configurators&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=468&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619287155 empty://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=routers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=468&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619287155 empty://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=providers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=468&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619287155, com.njupt.xymall.search.service.SearchItemService=empty://172.31.99.193/com.njupt.xymall.search.service.SearchItemService?application=xy-manager-web&category=configurators&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchItemService&methods=importAllItems&pid=17880&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559290009785 empty://172.31.99.193/com.njupt.xymall.search.service.SearchItemService?application=xy-manager-web&category=routers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchItemService&methods=importAllItems&pid=17880&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559290009785 dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchItemService?anyhost=true&application=xy-search&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchItemService&methods=importAllItems&pid=22608&side=provider&timeout=600000&timestamp=1559286757326, com.njupt.xymall.service.ItemService=empty://172.31.99.193/com.njupt.xymall.service.ItemService?application=xy-item-web&category=configurators&dubbo=2.5.3&interface=com.njupt.xymall.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=24464&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619228250 empty://172.31.99.193/com.njupt.xymall.service.ItemService?application=xy-item-web&category=routers&dubbo=2.5.3&interface=com.njupt.xymall.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=24464&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619228250 dubbo://172.31.99.193:20880/com.njupt.xymall.service.ItemService?anyhost=true&application=xy-manager&dubbo=2.5.3&interface=com.njupt.xymall.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=24552&side=provider&timeout=600000&timestamp=1559619216155, com.njupt.xymall.service.ItemCatService=empty://172.31.99.193:20880/com.njupt.xymall.service.ItemCatService?anyhost=true&application=xy-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.njupt.xymall.service.ItemCatService&methods=getItemCatlist&pid=24552&side=provider&timeout=600000&timestamp=1559619216653}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2019-06-04 11:35:27,467 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2019-06-04 11:35:27,482 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2019-06-04 11:35:27,483 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=DESKTOP-47CK06Q.mshome.net
+
+
+[INFO ] 2019-06-04 11:35:27,484 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_121
+
+
+[INFO ] 2019-06-04 11:35:27,484 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2019-06-04 11:35:27,484 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=C:\Program Files\Java\jdk1.8.0_121\jre
+
+
+[INFO ] 2019-06-04 11:35:27,485 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=Z:\apache-maven-3.5.3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.2.5\lib\idea_rt.jar
+
+
+[INFO ] 2019-06-04 11:35:27,485 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;G:\Program Tools\CTEX\UserData\miktex\bin;G:\Program Tools\CTEX\MiKTeX\miktex\bin;G:\Program Tools\CTEX\CTeX\ctex\bin;G:\Program Tools\CTEX\CTeX\cct\bin;G:\Program Tools\CTEX\CTeX\ty\bin;G:\Program Tools\CTEX\Ghostscript\gs9.05\bin;G:\Program Tools\CTEX\GSview\gsview;G:\Program Tools\CTEX\WinEdt;H:\apache-tomcat-8.0.43\bin;G:\soft;C:\Program Files\IDM Computer Solutions\UltraCompare;I:\MATLAB\MATLAB\R2017a\runtime\win64;I:\MATLAB\MATLAB\R2017a\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;Z:\apache-maven-3.5.3\bin;I:\Object Detection;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;Z:\Anaconda2\Scripts;I:\curl\I386;C:\WINDOWS\System32\OpenSSH\;%GIT-HOME%\cmd;Z:\Git\bin;C:\msys64\usr\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;Z:\Jenkins\cmake-3.12.3-win64-x64\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Users\JasonCode\AppData\Local\Microsoft\WindowsApps;Z:\python;D:\erl10.2\bin;C:\Program Files\Java\jdk1.8.0_121\bin;;.
+
+
+[INFO ] 2019-06-04 11:35:27,486 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\JASONC~1\AppData\Local\Temp\
+
+
+[INFO ] 2019-06-04 11:35:27,486 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2019-06-04 11:35:27,486 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2019-06-04 11:35:27,487 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2019-06-04 11:35:27,487 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2019-06-04 11:35:27,488 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=JasonCode
+
+
+[INFO ] 2019-06-04 11:35:27,488 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\JasonCode
+
+
+[INFO ] 2019-06-04 11:35:27,488 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=Z:\xymall\xy-search-web
+
+
+[INFO ] 2019-06-04 11:35:27,489 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@26a7877b
+
+
+[INFO ] 2019-06-04 11:35:27,521 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2019-06-04 11:35:27,524 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+
+
+[INFO ] 2019-06-04 11:35:27,561 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x100005583e70026, negotiated timeout = 30000
+
+
+[INFO ] 2019-06-04 11:35:27,562 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2019-06-04 11:35:27,589 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=consumers&check=false&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22760&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619327390, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:35:27,633 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22760&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619327390, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:35:27,719 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22760&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619327390, urls: [empty://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=providers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22760&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619327390, empty://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=configurators&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22760&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619327390, empty://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=routers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22760&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619327390], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[WARN ] 2019-06-04 11:35:27,724 method:org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'searchController': Unsatisfied dependency expressed through field 'searchService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'searchService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.njupt.xymall.search.service.SearchService. No provider available for the service com.njupt.xymall.search.service.SearchService from the url zookeeper://localhost:2181/com.alibaba.dubbo.registry.RegistryService?application=xy-search-web&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22760&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619327390 to the consumer 172.31.99.193 use dubbo version 2.5.3
+
+
+[ERROR] 2019-06-04 11:35:27,726 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:502)
+Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'searchController': Unsatisfied dependency expressed through field 'searchService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'searchService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.njupt.xymall.search.service.SearchService. No provider available for the service com.njupt.xymall.search.service.SearchService from the url zookeeper://localhost:2181/com.alibaba.dubbo.registry.RegistryService?application=xy-search-web&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22760&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619327390 to the consumer 172.31.99.193 use dubbo version 2.5.3
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'searchService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Failed to check the status of the service com.njupt.xymall.search.service.SearchService. No provider available for the service com.njupt.xymall.search.service.SearchService from the url zookeeper://localhost:2181/com.alibaba.dubbo.registry.RegistryService?application=xy-search-web&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22760&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619327390 to the consumer 172.31.99.193 use dubbo version 2.5.3
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1634)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1316)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1282)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1101)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 31 more
+Caused by: java.lang.IllegalStateException: Failed to check the status of the service com.njupt.xymall.search.service.SearchService. No provider available for the service com.njupt.xymall.search.service.SearchService from the url zookeeper://localhost:2181/com.alibaba.dubbo.registry.RegistryService?application=xy-search-web&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22760&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619327390 to the consumer 172.31.99.193 use dubbo version 2.5.3
+	at com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:420)
+	at com.alibaba.dubbo.config.ReferenceConfig.init(ReferenceConfig.java:300)
+	at com.alibaba.dubbo.config.ReferenceConfig.get(ReferenceConfig.java:138)
+	at com.alibaba.dubbo.config.spring.ReferenceBean.getObject(ReferenceBean.java:65)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
+	... 41 more
+
+
+[INFO ] 2019-06-04 11:36:04,371 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=22760&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619327390, urls: [dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=6408&side=provider&timeout=600000&timestamp=1559619364310], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:36:04,534 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.31.99.193:20882 from NettyClient 172.31.99.193 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x227bc095, /172.31.99.193:2121 => /172.31.99.193:20882]], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:36:04,534 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient DESKTOP-47CK06Q/172.31.99.193 connect to the server /172.31.99.193:20882, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:36:16,200 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'xy-search-web': initialization started
+
+
+[INFO ] 2019-06-04 11:36:16,217 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing WebApplicationContext for namespace 'xy-search-web-servlet': startup date [Tue Jun 04 11:36:16 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-06-04 11:36:16,244 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-06-04 11:36:16,451 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2019-06-04 11:36:16,566 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:155)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-06-04 11:36:16,834 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\JasonCode\.dubbo\dubbo-registry-localhost.cache, data: {com.njupt.xymall.content.service.ContentCategoryService=empty://172.31.99.193:20881/com.njupt.xymall.content.service.ContentCategoryService?anyhost=true&application=xy-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.njupt.xymall.content.service.ContentCategoryService&methods=getContentCatList&pid=1556&side=provider&timeout=600000&timestamp=1559619316265, com.njupt.xymall.search.service.SearchService=empty://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search&category=configurators&check=false&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=6408&side=provider&timeout=600000&timestamp=1559619364310, com.njupt.xymall.search.service.SearchItemService=empty://172.31.99.193:20882/com.njupt.xymall.search.service.SearchItemService?anyhost=true&application=xy-search&category=configurators&check=false&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchItemService&methods=importAllItems&pid=6408&side=provider&timeout=600000&timestamp=1559619363899, com.njupt.xymall.service.ItemService=empty://172.31.99.193/com.njupt.xymall.service.ItemService?application=xy-item-web&category=configurators&dubbo=2.5.3&interface=com.njupt.xymall.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=24464&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619228250 empty://172.31.99.193/com.njupt.xymall.service.ItemService?application=xy-item-web&category=routers&dubbo=2.5.3&interface=com.njupt.xymall.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=24464&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619228250 dubbo://172.31.99.193:20880/com.njupt.xymall.service.ItemService?anyhost=true&application=xy-manager&dubbo=2.5.3&interface=com.njupt.xymall.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=24552&side=provider&timeout=600000&timestamp=1559619216155, com.njupt.xymall.service.ItemCatService=empty://172.31.99.193:20880/com.njupt.xymall.service.ItemCatService?anyhost=true&application=xy-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.njupt.xymall.service.ItemCatService&methods=getItemCatlist&pid=24552&side=provider&timeout=600000&timestamp=1559619216653}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2019-06-04 11:36:16,923 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2019-06-04 11:36:16,939 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2019-06-04 11:36:16,940 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=DESKTOP-47CK06Q.mshome.net
+
+
+[INFO ] 2019-06-04 11:36:16,941 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_121
+
+
+[INFO ] 2019-06-04 11:36:16,941 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2019-06-04 11:36:16,941 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=C:\Program Files\Java\jdk1.8.0_121\jre
+
+
+[INFO ] 2019-06-04 11:36:16,941 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=Z:\apache-maven-3.5.3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.2.5\lib\idea_rt.jar
+
+
+[INFO ] 2019-06-04 11:36:16,942 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;G:\Program Tools\CTEX\UserData\miktex\bin;G:\Program Tools\CTEX\MiKTeX\miktex\bin;G:\Program Tools\CTEX\CTeX\ctex\bin;G:\Program Tools\CTEX\CTeX\cct\bin;G:\Program Tools\CTEX\CTeX\ty\bin;G:\Program Tools\CTEX\Ghostscript\gs9.05\bin;G:\Program Tools\CTEX\GSview\gsview;G:\Program Tools\CTEX\WinEdt;H:\apache-tomcat-8.0.43\bin;G:\soft;C:\Program Files\IDM Computer Solutions\UltraCompare;I:\MATLAB\MATLAB\R2017a\runtime\win64;I:\MATLAB\MATLAB\R2017a\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;Z:\apache-maven-3.5.3\bin;I:\Object Detection;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;Z:\Anaconda2\Scripts;I:\curl\I386;C:\WINDOWS\System32\OpenSSH\;%GIT-HOME%\cmd;Z:\Git\bin;C:\msys64\usr\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;Z:\Jenkins\cmake-3.12.3-win64-x64\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Users\JasonCode\AppData\Local\Microsoft\WindowsApps;Z:\python;D:\erl10.2\bin;C:\Program Files\Java\jdk1.8.0_121\bin;;.
+
+
+[INFO ] 2019-06-04 11:36:16,942 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\JASONC~1\AppData\Local\Temp\
+
+
+[INFO ] 2019-06-04 11:36:16,942 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2019-06-04 11:36:16,943 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2019-06-04 11:36:16,944 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2019-06-04 11:36:16,944 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2019-06-04 11:36:16,944 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=JasonCode
+
+
+[INFO ] 2019-06-04 11:36:16,945 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\JasonCode
+
+
+[INFO ] 2019-06-04 11:36:16,945 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=Z:\xymall\xy-search-web
+
+
+[INFO ] 2019-06-04 11:36:16,946 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@5ddbe9fd
+
+
+[INFO ] 2019-06-04 11:36:16,973 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2019-06-04 11:36:16,976 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1:2181, initiating session
+
+
+[INFO ] 2019-06-04 11:36:17,000 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 0:0:0:0:0:0:0:1/0:0:0:0:0:0:0:1:2181, sessionid = 0x100005583e70028, negotiated timeout = 30000
+
+
+[INFO ] 2019-06-04 11:36:17,002 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2019-06-04 11:36:17,023 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=consumers&check=false&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=15088&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619376769, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:36:17,073 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=15088&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619376769, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:36:17,161 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=15088&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619376769, urls: [dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=6408&side=provider&timeout=600000&timestamp=1559619364310, empty://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=configurators&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=15088&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619376769, empty://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=routers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=15088&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619376769], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:36:17,458 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.31.99.193:20882 from NettyClient 172.31.99.193 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x3dac5b3b, /172.31.99.193:2172 => /172.31.99.193:20882]], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:36:17,458 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient DESKTOP-47CK06Q/172.31.99.193 connect to the server /172.31.99.193:20882, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:36:17,509 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)
+ [DUBBO] Refer dubbo service com.njupt.xymall.search.service.SearchService from url zookeeper://localhost:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=xy-search-web&check=false&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=15088&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559619376769, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:36:17,697 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/search]}" onto public java.lang.String com.njupt.xymall.search.controller.SearchController.searchItemList(java.lang.String,java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+
+
+[INFO ] 2019-06-04 11:36:17,929 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'xy-search-web-servlet': startup date [Tue Jun 04 11:36:16 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-06-04 11:36:17,966 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'xy-search-web-servlet': startup date [Tue Jun 04 11:36:16 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-06-04 11:36:18,062 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
+FrameworkServlet 'xy-search-web': initialization completed in 1859 ms
+
+
+[INFO ] 2019-06-04 11:37:34,835 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'xy-search-web': initialization started
+
+
+[INFO ] 2019-06-04 11:37:34,852 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)
+Refreshing WebApplicationContext for namespace 'xy-search-web-servlet': startup date [Tue Jun 04 11:37:34 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-06-04 11:37:34,880 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/spring-mvc.xml]
+
+
+[INFO ] 2019-06-04 11:37:35,100 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2019-06-04 11:37:35,225 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:155)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2019-06-04 11:37:35,491 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\JasonCode\.dubbo\dubbo-registry-localhost.cache, data: {com.njupt.xymall.content.service.ContentCategoryService=empty://172.31.99.193:20881/com.njupt.xymall.content.service.ContentCategoryService?anyhost=true&application=xy-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.njupt.xymall.content.service.ContentCategoryService&methods=getContentCatList&pid=1556&side=provider&timeout=600000&timestamp=1559619316265, com.njupt.xymall.search.service.SearchService=empty://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=configurators&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=15088&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619376769 empty://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=routers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=15088&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619376769 dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=6408&side=provider&timeout=600000&timestamp=1559619364310, com.njupt.xymall.search.service.SearchItemService=empty://172.31.99.193:20882/com.njupt.xymall.search.service.SearchItemService?anyhost=true&application=xy-search&category=configurators&check=false&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchItemService&methods=importAllItems&pid=6408&side=provider&timeout=600000&timestamp=1559619363899, com.njupt.xymall.service.ItemService=empty://172.31.99.193/com.njupt.xymall.service.ItemService?application=xy-item-web&category=configurators&dubbo=2.5.3&interface=com.njupt.xymall.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=24464&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619228250 empty://172.31.99.193/com.njupt.xymall.service.ItemService?application=xy-item-web&category=routers&dubbo=2.5.3&interface=com.njupt.xymall.service.ItemService&methods=addItem,getItemList,getItemById,getItemDescById&pid=24464&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619228250 dubbo://172.31.99.193:20880/com.njupt.xymall.service.ItemService?anyhost=true&application=xy-manager&dubbo=2.5.3&interface=com.njupt.xymall.service.ItemService&methods=getItemList,addItem,getItemById,getItemDescById&pid=24552&side=provider&timeout=600000&timestamp=1559619216155, com.njupt.xymall.service.ItemCatService=empty://172.31.99.193:20880/com.njupt.xymall.service.ItemCatService?anyhost=true&application=xy-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.njupt.xymall.service.ItemCatService&methods=getItemCatlist&pid=24552&side=provider&timeout=600000&timestamp=1559619216653}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2019-06-04 11:37:35,582 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2019-06-04 11:37:35,615 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2019-06-04 11:37:35,616 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=DESKTOP-47CK06Q.mshome.net
+
+
+[INFO ] 2019-06-04 11:37:35,616 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_121
+
+
+[INFO ] 2019-06-04 11:37:35,616 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2019-06-04 11:37:35,617 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=C:\Program Files\Java\jdk1.8.0_121\jre
+
+
+[INFO ] 2019-06-04 11:37:35,617 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=Z:\apache-maven-3.5.3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2018.2.5\lib\idea_rt.jar
+
+
+[INFO ] 2019-06-04 11:37:35,617 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;G:\Program Tools\CTEX\UserData\miktex\bin;G:\Program Tools\CTEX\MiKTeX\miktex\bin;G:\Program Tools\CTEX\CTeX\ctex\bin;G:\Program Tools\CTEX\CTeX\cct\bin;G:\Program Tools\CTEX\CTeX\ty\bin;G:\Program Tools\CTEX\Ghostscript\gs9.05\bin;G:\Program Tools\CTEX\GSview\gsview;G:\Program Tools\CTEX\WinEdt;H:\apache-tomcat-8.0.43\bin;G:\soft;C:\Program Files\IDM Computer Solutions\UltraCompare;I:\MATLAB\MATLAB\R2017a\runtime\win64;I:\MATLAB\MATLAB\R2017a\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;Z:\apache-maven-3.5.3\bin;I:\Object Detection;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;Z:\Anaconda2\Scripts;I:\curl\I386;C:\WINDOWS\System32\OpenSSH\;%GIT-HOME%\cmd;Z:\Git\bin;C:\msys64\usr\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;Z:\Jenkins\cmake-3.12.3-win64-x64\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Users\JasonCode\AppData\Local\Microsoft\WindowsApps;Z:\python;D:\erl10.2\bin;C:\Program Files\Java\jdk1.8.0_121\bin;;.
+
+
+[INFO ] 2019-06-04 11:37:35,617 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\JASONC~1\AppData\Local\Temp\
+
+
+[INFO ] 2019-06-04 11:37:35,618 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2019-06-04 11:37:35,618 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2019-06-04 11:37:35,619 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2019-06-04 11:37:35,619 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2019-06-04 11:37:35,619 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=JasonCode
+
+
+[INFO ] 2019-06-04 11:37:35,620 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\JasonCode
+
+
+[INFO ] 2019-06-04 11:37:35,620 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=Z:\xymall\xy-search-web
+
+
+[INFO ] 2019-06-04 11:37:35,621 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=localhost:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@3a2bd5b
+
+
+[INFO ] 2019-06-04 11:37:35,655 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2019-06-04 11:37:35,657 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+
+
+[INFO ] 2019-06-04 11:37:35,685 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x100005583e70029, negotiated timeout = 30000
+
+
+[INFO ] 2019-06-04 11:37:35,816 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2019-06-04 11:37:35,839 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=consumers&check=false&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=21616&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619455437, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:37:35,956 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=21616&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619455437, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:37:36,551 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=21616&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619455437, urls: [dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=6408&side=provider&timeout=600000&timestamp=1559619364310, empty://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=configurators&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=21616&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619455437, empty://172.31.99.193/com.njupt.xymall.search.service.SearchService?application=xy-search-web&category=routers&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=21616&revision=1.0-SNAPSHOT&side=consumer&timestamp=1559619455437], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:37:36,682 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.31.99.193:20882 from NettyClient 172.31.99.193 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x83e83f33, /172.31.99.193:2466 => /172.31.99.193:20882]], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:37:36,683 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient DESKTOP-47CK06Q/172.31.99.193 connect to the server /172.31.99.193:20882, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:37:36,728 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)
+ [DUBBO] Refer dubbo service com.njupt.xymall.search.service.SearchService from url zookeeper://localhost:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=xy-search-web&check=false&dubbo=2.5.3&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=21616&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559619455437, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 11:37:36,896 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)
+Mapped "{[/search]}" onto public java.lang.String com.njupt.xymall.search.controller.SearchController.searchItemList(java.lang.String,java.lang.Integer,org.springframework.ui.Model) throws java.lang.Exception
+
+
+[INFO ] 2019-06-04 11:37:37,111 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'xy-search-web-servlet': startup date [Tue Jun 04 11:37:34 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-06-04 11:37:37,155 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'xy-search-web-servlet': startup date [Tue Jun 04 11:37:34 CST 2019]; root of context hierarchy
+
+
+[INFO ] 2019-06-04 11:37:37,258 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
+FrameworkServlet 'xy-search-web': initialization completed in 2421 ms
+
+
+[WARN ] 2019-06-04 15:40:13,841 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1176)
+No mapping found for HTTP request with URI [/html/web/_public/_ajaxStaticMenu.html] in DispatcherServlet with name 'xy-search-web'
+
+
+[INFO ] 2019-06-04 18:54:26,412 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /172.31.99.193:20882,url:dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=21616&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559619455437, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 18:54:27,836 method:com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:101)
+ [DUBBO] Close old netty channel [id: 0x83e83f33, /172.31.99.193:2466 :> /172.31.99.193:20882] on create new netty channel [id: 0x89adc12b, /172.31.99.193:13827 => /172.31.99.193:20882], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 18:54:27,837 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.31.99.193:20882 from NettyClient 172.31.99.193 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x89adc12b, /172.31.99.193:13827 => /172.31.99.193:20882]], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 18:54:29,373 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /172.31.99.193:20882,url:dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=21616&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559619455437, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 18:54:29,839 method:com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:101)
+ [DUBBO] Close old netty channel [id: 0x89adc12b, /172.31.99.193:13827 :> /172.31.99.193:20882] on create new netty channel [id: 0x2549bec5, /172.31.99.193:13846 => /172.31.99.193:20882], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 18:54:29,839 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.31.99.193:20882 from NettyClient 172.31.99.193 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x2549bec5, /172.31.99.193:13846 => /172.31.99.193:20882]], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 20:20:36,813 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /172.31.99.193:20882,url:dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=21616&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559619455437, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 20:20:38,474 method:com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:101)
+ [DUBBO] Close old netty channel [id: 0x2549bec5, /172.31.99.193:13846 :> /172.31.99.193:20882] on create new netty channel [id: 0xd65cdb4e, /172.31.99.193:9946 => /172.31.99.193:20882], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 20:20:38,474 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.31.99.193:20882 from NettyClient 172.31.99.193 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xd65cdb4e, /172.31.99.193:9946 => /172.31.99.193:20882]], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 20:20:42,748 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /172.31.99.193:20882,url:dubbo://172.31.99.193:20882/com.njupt.xymall.search.service.SearchService?anyhost=true&application=xy-search-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.njupt.xymall.search.service.SearchService&methods=search&pid=21616&revision=1.0-SNAPSHOT&side=consumer&timeout=600000&timestamp=1559619455437, dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 20:20:44,479 method:com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:101)
+ [DUBBO] Close old netty channel [id: 0xd65cdb4e, /172.31.99.193:9946 :> /172.31.99.193:20882] on create new netty channel [id: 0x1a967c54, /172.31.99.193:9976 => /172.31.99.193:20882], dubbo version: 2.5.3, current host: 172.31.99.193
+
+
+[INFO ] 2019-06-04 20:20:44,480 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /172.31.99.193:20882 from NettyClient 172.31.99.193 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x1a967c54, /172.31.99.193:9976 => /172.31.99.193:20882]], dubbo version: 2.5.3, current host: 172.31.99.193

@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/xy-content/xy-content.iml" filepath="$PROJECT_DIR$/xy-content/xy-content.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-content/xy-content-interface/xy-content-interface.iml" filepath="$PROJECT_DIR$/xy-content/xy-content-interface/xy-content-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-content/xy-content-service/xy-content-service.iml" filepath="$PROJECT_DIR$/xy-content/xy-content-service/xy-content-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-item-web/xy-item-web.iml" filepath="$PROJECT_DIR$/xy-item-web/xy-item-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-manager/xy-manager.iml" filepath="$PROJECT_DIR$/xy-manager/xy-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-manager/xy-manager-dao/xy-manager-dao.iml" filepath="$PROJECT_DIR$/xy-manager/xy-manager-dao/xy-manager-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-manager/xy-manager-interface/xy-manager-interface.iml" filepath="$PROJECT_DIR$/xy-manager/xy-manager-interface/xy-manager-interface.iml" />
