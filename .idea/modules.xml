@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/xy-cart/xy-cart.iml" filepath="$PROJECT_DIR$/xy-cart/xy-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-cart/xy-cart-interface/xy-cart-interface.iml" filepath="$PROJECT_DIR$/xy-cart/xy-cart-interface/xy-cart-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-cart/xy-cart-service/xy-cart-service.iml" filepath="$PROJECT_DIR$/xy-cart/xy-cart-service/xy-cart-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-cart-web/xy-cart-web.iml" filepath="$PROJECT_DIR$/xy-cart-web/xy-cart-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-common/xy-common.iml" filepath="$PROJECT_DIR$/xy-common/xy-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-content/xy-content.iml" filepath="$PROJECT_DIR$/xy-content/xy-content.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-content/xy-content-interface/xy-content-interface.iml" filepath="$PROJECT_DIR$/xy-content/xy-content-interface/xy-content-interface.iml" />
@@ -19,6 +23,10 @@
       <module fileurl="file://$PROJECT_DIR$/xy-search/xy-search-interface/xy-search-interface.iml" filepath="$PROJECT_DIR$/xy-search/xy-search-interface/xy-search-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-search/xy-search-service/xy-search-service.iml" filepath="$PROJECT_DIR$/xy-search/xy-search-service/xy-search-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-search-web/xy-search-web.iml" filepath="$PROJECT_DIR$/xy-search-web/xy-search-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-sso/xy-sso.iml" filepath="$PROJECT_DIR$/xy-sso/xy-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-sso/xy-sso-interface/xy-sso-interface.iml" filepath="$PROJECT_DIR$/xy-sso/xy-sso-interface/xy-sso-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-sso/xy-sso-service/xy-sso-service.iml" filepath="$PROJECT_DIR$/xy-sso/xy-sso-service/xy-sso-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-sso-web/xy-sso-web.iml" filepath="$PROJECT_DIR$/xy-sso-web/xy-sso-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/xymall.iml" filepath="$PROJECT_DIR$/.idea/xymall.iml" />
     </modules>
   </component>

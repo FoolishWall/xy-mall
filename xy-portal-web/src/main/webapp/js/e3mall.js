@@ -5,13 +5,13 @@ var E3MALL = {
 			return ;
 		}
 		$.ajax({
-			url : "http://localhost:8088/user/token/" + _ticket,
+			url : "http://localhost:18088/user/token/" + _ticket,
 			dataType : "jsonp",
 			type : "GET",
 			success : function(data){
 				if(data.status == 200){
 					var username = data.data.username;
-					var html = username + "，欢迎来到宜立方购物网！<a href=\"http://localhost:8088/\">[退出]</a>";
+					var html = username + "，欢迎来到宜立方购物网！<a href=\"http://localhost:18088/\">[退出]</a>";
 					$("#loginbar").html(html);
 				}
 			}

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xy-sso-web:war">
+    <output-path>$PROJECT_DIR$/xy-sso-web/target</output-path>
+    <root id="archive" name="xy-sso-web.war">
+      <element id="artifact" artifact-name="xy-sso-web:war exploded" />
+    </root>
+  </artifact>
+</component>

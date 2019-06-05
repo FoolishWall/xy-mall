@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xy-cart-service:war">
+    <output-path>$PROJECT_DIR$/xy-cart/xy-cart-service/target</output-path>
+    <root id="archive" name="xy-cart-service.war">
+      <element id="artifact" artifact-name="xy-cart-service:war exploded" />
+    </root>
+  </artifact>
+</component>

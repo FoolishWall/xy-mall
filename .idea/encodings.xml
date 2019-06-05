@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/xy-cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xy-cart-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xy-cart/xy-cart-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xy-cart/xy-cart-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xy-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xy-content" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xy-content/xy-content-interface" charset="UTF-8" />
@@ -15,9 +19,12 @@
     <file url="file://$PROJECT_DIR$/xy-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xy-portal-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xy-search" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/xy-search" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xy-search-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xy-search/xy-search-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xy-search/xy-search-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xy-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xy-sso-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xy-sso/xy-sso-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xy-sso/xy-sso-service" charset="UTF-8" />
   </component>
 </project>

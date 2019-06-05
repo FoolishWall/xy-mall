@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/xy-cart-web" />
+    <file type="web" url="file://$PROJECT_DIR$/xy-cart/xy-cart-service" />
     <file type="web" url="file://$PROJECT_DIR$/xy-content/xy-content-service" />
     <file type="web" url="file://$PROJECT_DIR$/xy-item-web" />
     <file type="web" url="file://$PROJECT_DIR$/xy-manager-web" />
@@ -9,6 +11,8 @@
     <file type="web" url="file://$PROJECT_DIR$/xy-portal-web" />
     <file type="web" url="file://$PROJECT_DIR$/xy-search-web" />
     <file type="web" url="file://$PROJECT_DIR$/xy-search/xy-search-service" />
+    <file type="web" url="file://$PROJECT_DIR$/xy-sso-web" />
+    <file type="web" url="file://$PROJECT_DIR$/xy-sso/xy-sso-service" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -27,6 +31,11 @@
         <option value="$PROJECT_DIR$/xy-search/pom.xml" />
         <option value="$PROJECT_DIR$/xy-search-web/pom.xml" />
         <option value="$PROJECT_DIR$/xy-item-web/pom.xml" />
+        <option value="$PROJECT_DIR$/xy-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/xy-sso/xy-sso-service/pom.xml" />
+        <option value="$PROJECT_DIR$/xy-sso-web/pom.xml" />
+        <option value="$PROJECT_DIR$/xy-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/xy-cart-web/pom.xml" />
       </list>
     </option>
   </component>
