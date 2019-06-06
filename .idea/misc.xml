@@ -8,6 +8,8 @@
     <file type="web" url="file://$PROJECT_DIR$/xy-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/xy-manager/xy-manager-service" />
     <file type="web" url="file://$PROJECT_DIR$/xy-manager/xy-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/xy-order-web" />
+    <file type="web" url="file://$PROJECT_DIR$/xy-order/xy-order-service" />
     <file type="web" url="file://$PROJECT_DIR$/xy-portal-web" />
     <file type="web" url="file://$PROJECT_DIR$/xy-search-web" />
     <file type="web" url="file://$PROJECT_DIR$/xy-search/xy-search-service" />
@@ -36,6 +38,8 @@
         <option value="$PROJECT_DIR$/xy-sso-web/pom.xml" />
         <option value="$PROJECT_DIR$/xy-cart/pom.xml" />
         <option value="$PROJECT_DIR$/xy-cart-web/pom.xml" />
+        <option value="$PROJECT_DIR$/xy-order/pom.xml" />
+        <option value="$PROJECT_DIR$/xy-order-web/pom.xml" />
       </list>
     </option>
   </component>

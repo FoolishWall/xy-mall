@@ -1,11 +1,5 @@
 package com.njupt.xymall.cart.service.impl;
 
-import com.e3mall.cart.service.CartService;
-import com.e3mall.common.jedis.JedisClient;
-import com.e3mall.common.utils.E3Result;
-import com.e3mall.common.utils.JsonUtils;
-import com.e3mall.mapper.TbItemMapper;
-import com.e3mall.pojo.TbItem;
 import com.njupt.xymall.cart.service.CartService;
 import com.njupt.xymall.common.jedis.JedisClient;
 import com.njupt.xymall.common.utils.JsonUtils;

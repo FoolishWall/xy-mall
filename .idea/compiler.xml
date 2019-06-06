@@ -18,6 +18,9 @@
         <module name="xy-manager-pojo" />
         <module name="xy-manager-service" />
         <module name="xy-manager-web" />
+        <module name="xy-order-interface" />
+        <module name="xy-order-service" />
+        <module name="xy-order-web" />
         <module name="xy-portal-web" />
         <module name="xy-search-interface" />
         <module name="xy-search-service" />
@@ -43,6 +46,10 @@
       <module name="xy-manager-pojo" target="1.8" />
       <module name="xy-manager-service" target="1.8" />
       <module name="xy-manager-web" target="1.8" />
+      <module name="xy-order" target="1.8" />
+      <module name="xy-order-interface" target="1.8" />
+      <module name="xy-order-service" target="1.8" />
+      <module name="xy-order-web" target="1.8" />
       <module name="xy-parent" target="1.8" />
       <module name="xy-portal-web" target="1.8" />
       <module name="xy-search" target="1.8" />

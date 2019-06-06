@@ -17,6 +17,10 @@
       <module fileurl="file://$PROJECT_DIR$/xy-manager/xy-manager-pojo/xy-manager-pojo.iml" filepath="$PROJECT_DIR$/xy-manager/xy-manager-pojo/xy-manager-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-manager/xy-manager-service/xy-manager-service.iml" filepath="$PROJECT_DIR$/xy-manager/xy-manager-service/xy-manager-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-manager-web/xy-manager-web.iml" filepath="$PROJECT_DIR$/xy-manager-web/xy-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-order/xy-order.iml" filepath="$PROJECT_DIR$/xy-order/xy-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-order/xy-order-interface/xy-order-interface.iml" filepath="$PROJECT_DIR$/xy-order/xy-order-interface/xy-order-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-order/xy-order-service/xy-order-service.iml" filepath="$PROJECT_DIR$/xy-order/xy-order-service/xy-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-order-web/xy-order-web.iml" filepath="$PROJECT_DIR$/xy-order-web/xy-order-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-parent/xy-parent.iml" filepath="$PROJECT_DIR$/xy-parent/xy-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-portal-web/xy-portal-web.iml" filepath="$PROJECT_DIR$/xy-portal-web/xy-portal-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-search/xy-search.iml" filepath="$PROJECT_DIR$/xy-search/xy-search.iml" />
