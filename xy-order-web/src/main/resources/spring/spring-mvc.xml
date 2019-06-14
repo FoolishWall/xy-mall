@@ -19,7 +19,12 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 	<!-- 拦截器配置 -->
-
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/**"/>
+			<bean class="com.njupt.xymall.order.interceptor.LoginInterceptor"/>
+		</mvc:interceptor>
+	</mvc:interceptors>
 	<!-- 引用dubbo服务 -->
 	<dubbo:application name="xy-order-web"/>
 	<dubbo:registry protocol="zookeeper" address="localhost:2181"/>

@@ -31,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/xy-sso/xy-sso-interface/xy-sso-interface.iml" filepath="$PROJECT_DIR$/xy-sso/xy-sso-interface/xy-sso-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-sso/xy-sso-service/xy-sso-service.iml" filepath="$PROJECT_DIR$/xy-sso/xy-sso-service/xy-sso-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/xy-sso-web/xy-sso-web.iml" filepath="$PROJECT_DIR$/xy-sso-web/xy-sso-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xy-test/xy-test.iml" filepath="$PROJECT_DIR$/xy-test/xy-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/xymall.iml" filepath="$PROJECT_DIR$/.idea/xymall.iml" />
     </modules>
   </component>

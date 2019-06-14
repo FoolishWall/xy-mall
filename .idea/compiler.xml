@@ -28,6 +28,7 @@
         <module name="xy-sso-interface" />
         <module name="xy-sso-service" />
         <module name="xy-sso-web" />
+        <module name="xy-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -60,6 +61,7 @@
       <module name="xy-sso-interface" target="1.8" />
       <module name="xy-sso-service" target="1.8" />
       <module name="xy-sso-web" target="1.8" />
+      <module name="xy-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
