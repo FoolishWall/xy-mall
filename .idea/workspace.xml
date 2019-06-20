@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5bd86e4-5345-4bdc-ab58-cf658ec255c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xy-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy-test/src/main/java/com/njupt/xymall/test/order/CreateJedisCluster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy-test/src/main/java/com/njupt/xymall/test/order/CreateOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy-test/src/main/java/com/njupt/xymall/test/order/TestCreateOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xy-test/xy-test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/language.gitattributes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-cart-web/target/tomcat/logs/access_log.2019-06-06" beforeDir="false" afterPath="$PROJECT_DIR$/xy-cart-web/target/tomcat/logs/access_log.2019-06-06" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-item-web/target/tomcat/logs/access_log.2019-06-06" beforeDir="false" afterPath="$PROJECT_DIR$/xy-item-web/target/tomcat/logs/access_log.2019-06-06" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-order-web/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xy-order-web/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-order-web/target/classes/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xy-order-web/target/classes/spring/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-order/xy-order-service/src/main/resources/spring/spring-trans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xy-order/xy-order-service/src/main/resources/spring/spring-trans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-portal-web/target/tomcat/logs/access_log.2019-06-06" beforeDir="false" afterPath="$PROJECT_DIR$/xy-portal-web/target/tomcat/logs/access_log.2019-06-06" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-search-web/logs/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/xy-search-web/logs/server.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-search-web/target/tomcat/logs/access_log.2019-06-06" beforeDir="false" afterPath="$PROJECT_DIR$/xy-search-web/target/tomcat/logs/access_log.2019-06-06" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xy-sso-web/target/tomcat/logs/access_log.2019-06-06" beforeDir="false" afterPath="$PROJECT_DIR$/xy-sso-web/target/tomcat/logs/access_log.2019-06-06" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xy-common/src/main/java/com/njupt/xymall/common/utils/IDUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/xy-common/src/main/java/com/njupt/xymall/common/utils/IDUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xy-manager/xy-manager-service/src/main/java/com/njupt/xymall/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xy-manager/xy-manager-service/src/main/java/com/njupt/xymall/service/impl/ItemServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/xy-parent/target/" />
@@ -68,16 +53,17 @@
     <session id="-1571186826">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
-          <entry key="project.open.time.0" value="4" />
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -85,6 +71,7 @@
           <entry key="class" value="5" />
           <entry key="conf" value="7" />
           <entry key="dummy" value="4" />
+          <entry key="gitattributes" value="25" />
           <entry key="java" value="2444" />
           <entry key="js" value="3" />
           <entry key="jsp" value="33" />
@@ -100,45 +87,46 @@
           <entry key="JSP" value="33" />
           <entry key="JavaScript" value="3" />
           <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="PLAIN_TEXT" value="36" />
           <entry key="Properties" value="38" />
           <entry key="XML" value="1587" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="40" />
+          <entry key="class" value="41" />
           <entry key="conf" value="2" />
+          <entry key="gitattributes" value="1" />
           <entry key="groovy" value="1" />
           <entry key="html" value="1" />
           <entry key="iml" value="2" />
-          <entry key="java" value="276" />
+          <entry key="java" value="288" />
           <entry key="js" value="16" />
           <entry key="jsp" value="46" />
           <entry key="log" value="1" />
           <entry key="md" value="1" />
           <entry key="pom" value="4" />
-          <entry key="properties" value="62" />
+          <entry key="properties" value="63" />
           <entry key="rnc" value="1" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="317" />
+          <entry key="xml" value="322" />
           <entry key="xsd" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="40" />
+          <entry key="CLASS" value="41" />
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="276" />
+          <entry key="JAVA" value="288" />
           <entry key="JSP" value="46" />
           <entry key="JavaScript" value="16" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Properties" value="62" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Properties" value="63" />
           <entry key="RNG Compact" value="1" />
           <entry key="Scratch" value="2" />
-          <entry key="XML" value="326" />
+          <entry key="XML" value="331" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.core.usages.trigger">
@@ -149,36 +137,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xy-test/src/main/java/com/njupt/xymall/test/order/CreateJedisCluster.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xy-test/src/main/java/com/njupt/xymall/test/order/TestCreateOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xy-test/src/main/java/com/njupt/xymall/test/order/CreateOrder.java">
+        <entry file="file://$PROJECT_DIR$/language.gitattributes">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="81">
+              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -225,10 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xy-sso-web/src/main/java/com/njupt/xymall/sso/controller/RegisterController.java" />
-        <option value="$PROJECT_DIR$/xy-sso-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/xy-sso/xy-sso-service/src/main/java/com/njupt/xymall/sso/service/impl/LoginServiceImpl.java" />
-        <option value="$PROJECT_DIR$/xy-sso/xy-sso-service/src/main/resources/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/xy-sso/xy-sso-service/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/xy-sso-web/src/main/java/com/njupt/xymall/sso/controller/TokenController.java" />
         <option value="$PROJECT_DIR$/xy-sso-web/src/main/webapp/WEB-INF/jsp/login.jsp" />
@@ -276,6 +236,10 @@
         <option value="$PROJECT_DIR$/xy-test/src/main/java/com/njupt/xymall/test/order/CreateJedisCluster.java" />
         <option value="$PROJECT_DIR$/xy-test/src/main/java/com/njupt/xymall/test/order/CreateOrder.java" />
         <option value="$PROJECT_DIR$/xy-test/src/main/java/com/njupt/xymall/test/order/TestCreateOrder.java" />
+        <option value="$PROJECT_DIR$/xy-manager/xy-manager-service/src/main/java/com/njupt/xymall/service/impl/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/xy-common/src/main/java/com/njupt/xymall/common/utils/IDUtils.java" />
+        <option value="$PROJECT_DIR$/xy-order/xy-order-service/src/main/resources/spring/spring-dataSource.xml" />
+        <option value="$PROJECT_DIR$/language.gitattributes" />
       </list>
     </option>
   </component>
@@ -325,8 +289,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="296" />
+    <option name="y" value="20" />
     <option name="width" value="1685" />
     <option name="height" value="975" />
   </component>
@@ -338,6 +302,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -345,143 +311,16 @@
               <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
               <item name="xymall" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-content" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-content-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-content" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-content" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-content" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-content" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="imp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-manager-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xymall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xymall" type="462c0819:PsiDirectoryNode" />
-              <item name="xy-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560520523670" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561040633107" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -500,15 +339,12 @@
       <recent name="com.njupt.xymall.service.impl" />
       <recent name="com.njupt.xymall.controller" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="Z:\xymall\xy-test\src\main\resources\spring" />
-      <recent name="Z:\xymall\xy-order-web\src\main\resources" />
-      <recent name="Z:\xymall\xy-order-web\src\main" />
-      <recent name="Z:\xymall\xy-order\xy-order-service\src\main\resources" />
-      <recent name="Z:\xymall\xy-order\xy-order-service\src\main" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\xymall\xy-sso-web\src\main" />
+      <recent name="Z:\xymall\xy-sso-web\src" />
+      <recent name="Z:\xymall\xy-manager-web\src\main\resources" />
+      <recent name="Z:\xymall\xy-manager-web\src\main\java" />
+      <recent name="Z:\xymall\xy-manager-web\src\main\resources\conf" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.njupt.xymall.cart.interceptor" />
@@ -517,12 +353,15 @@
       <recent name="com.njupt.xymall.order.service.impl" />
       <recent name="com.njupt.xymall.order.pojo" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="Z:\xymall\xy-sso-web\src\main" />
-      <recent name="Z:\xymall\xy-sso-web\src" />
-      <recent name="Z:\xymall\xy-manager-web\src\main\resources" />
-      <recent name="Z:\xymall\xy-manager-web\src\main\java" />
-      <recent name="Z:\xymall\xy-manager-web\src\main\resources\conf" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\xymall\xy-order\xy-order-service\src\main\resources\spring" />
+      <recent name="Z:\xymall\xy-test\src\main\resources\spring" />
+      <recent name="Z:\xymall\xy-order-web\src\main\resources" />
+      <recent name="Z:\xymall\xy-order-web\src\main" />
+      <recent name="Z:\xymall\xy-order\xy-order-service\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -654,7 +493,10 @@
       <workItem from="1558937763868" duration="10138000" />
       <workItem from="1558966033620" duration="73627000" />
       <workItem from="1559658040579" duration="32615000" />
-      <workItem from="1560346921808" duration="9288000" />
+      <workItem from="1560346921808" duration="10823000" />
+      <workItem from="1560824751788" duration="4527000" />
+      <workItem from="1561029986336" duration="2386000" />
+      <workItem from="1561040536554" duration="97000" />
     </task>
     <servers />
   </component>
@@ -691,13 +533,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189099000" />
+    <option name="totallyTimeSpent" value="197644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967825" visible="true" weight="0.2228145" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967825" visible="true" weight="0.18869936" />
       <window_info id="Structure" order="1" sideWeight="0.50064516" side_tool="true" weight="0.28997868" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -707,13 +549,13 @@
       <window_info id="Web" order="7" sideWeight="0.5032175" side_tool="true" weight="0.18923241" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.18329719" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.52277654" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5178765" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.1626898" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.037960954" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.3716143" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.46312365" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -771,96 +613,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xy-order-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1831">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-order-web/src/main/resources/conf/resource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-order-web/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-sso-web/src/main/java/com/njupt/xymall/sso/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-cart-web/src/main/webapp/WEB-INF/jsp/cart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2560">
-          <caret line="120" column="78" selection-start-line="120" selection-start-column="78" selection-end-line="120" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-manager/xy-manager-pojo/src/main/java/com/njupt/xymall/pojo/TbItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-common/src/main/java/com/njupt/xymall/common/utils/XYResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-sso/xy-sso-interface/src/main/java/com/njupt/xymall/sso/service/TokenService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://Z:/repository/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/config/spring-mvc-4.2.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="712" column="36" selection-start-line="712" selection-start-column="36" selection-end-line="712" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-cart-web/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-sso-web/src/main/webapp/WEB-INF/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-sso-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-811">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-cart-web/src/main/java/com/njupt/xymall/cart/interceptor/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xy-cart-web/src/main/webapp/WEB-INF/jsp/cartSuccess.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="972">
@@ -885,13 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xy-order/xy-order-service/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xy-manager/xy-manager-dao/src/main/java/com/njupt/xymall/mapper/TbOrderMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -906,23 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xy-order-web/src/main/java/com/njupt/xymall/order/interceptor/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
-          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xy-order/xy-order-interface/src/main/java/com/njupt/xymall/order/pojo/OrderInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -930,9 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -950,20 +679,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xy-common/src/main/java/com/njupt/xymall/common/utils/IDUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-346">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xy-common/src/main/java/com/njupt/xymall/common/utils/JsonUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -971,9 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -981,9 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
           <caret line="110" column="20" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1005,9 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="626">
           <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1020,13 +730,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xy-sso/xy-sso-service/src/main/resources/spring/spring-service.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-sso/xy-sso-service/src/main/java/com/njupt/xymall/sso/service/impl/LoginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xy-sso/xy-sso-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1042,41 +745,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xy-order/xy-order-service/src/main/java/com/njupt/xymall/order/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1022#1043#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-test/target/classes/spring/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-test/src/main/resources/spring/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xy-test/src/main/java/com/njupt/xymall/test/order/CreateOrderID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-test/target/classes/spring/spring-redis.xml" />
+    <entry file="file://$PROJECT_DIR$/xy-test/src/main/resources/spring/spring-redis.xml" />
+    <entry file="file://$PROJECT_DIR$/xy-test/src/main/java/com/njupt/xymall/test/order/CreateOrderID.java" />
     <entry file="file://$PROJECT_DIR$/xy-common/src/main/java/com/njupt/xymall/common/jedis/JedisClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1088,10 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="45" column="21" lean-forward="true" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding>
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1099,9 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#830#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1126,30 +790,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xy-test/src/main/java/com/njupt/xymall/test/order/TestCreateOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xy-test/src/main/java/com/njupt/xymall/test/order/CreateJedisCluster.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xy-test/src/main/java/com/njupt/xymall/test/order/CreateOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="486">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-test/src/main/java/com/njupt/xymall/test/order/TestCreateOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-manager/xy-manager-service/src/main/java/com/njupt/xymall/service/impl/ItemCatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-manager/xy-manager-interface/src/main/java/com/njupt/xymall/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567" />
+      </provider>
+    </entry>
+    <entry file="jar://Z:/repository/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2.jar!/com/github/pagehelper/PageHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/UUID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-manager/xy-manager-service/src/main/java/com/njupt/xymall/service/impl/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-common/src/main/java/com/njupt/xymall/common/utils/IDUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-order/xy-order-service/src/main/java/com/njupt/xymall/order/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-order/xy-order-service/src/main/resources/mybatis/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-sso/xy-sso-service/src/main/java/com/njupt/xymall/sso/service/impl/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-search/xy-search-service/src/main/java/com/njupt/xymall/search/service/impl/SearchItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-search/xy-search-service/src/main/java/com/njupt/xymall/search/service/impl/SearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-search/xy-search-service/src/main/java/com/njupt/xymall/search/service/dao/SearchDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-manager/xy-manager-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-order/xy-order-service/src/main/resources/conf/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="67" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-order/xy-order-service/src/main/resources/spring/spring-dataSource.xml" />
+    <entry file="file://$PROJECT_DIR$/xy-order-web/src/main/java/com/njupt/xymall/order/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xy-order/xy-order-service/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>

@@ -15,7 +15,6 @@ import com.njupt.xymall.pojo.TbItemExample;
 import com.njupt.xymall.service.ItemService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
